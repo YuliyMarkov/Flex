@@ -1,0 +1,178 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "TT Hoves";
+}
+section {
+  padding: 0 calc(10vw + -16.345px);
+  margin-bottom: calc(11vw + 18.4px);
+  max-width: 1280px;
+}
+.course-bg {
+  background-image: url(./Images/html_css_js\ 1.png);
+  background-repeat: no-repeat;
+  background-size: 30vw;
+  background-position: right 58px top 151px;
+}
+.logo {
+  width: calc(8vw + 181.924px);
+  margin-top: 37px;
+  margin-bottom: calc(6.3vw + 4.292px);
+}
+.courseinfo {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: calc(14.5vw + -24.487px);
+  margin-bottom: calc(3.1vw +  36.354px);
+}
+
+.courseinfo div {
+  display: flex;
+  flex-direction: column;  
+}
+.title {
+  font-size: calc(0.6vw + 13.92px);
+  line-height: 140%;
+}
+.subtitle {
+  font-weight: 700;
+}
+h1 {
+  font-family: "Chava";
+  font-size: calc(4.2vw + 26.25px);
+  line-height: 110%;
+  margin-bottom: calc(2vw + 11.681px);
+}
+.jobInfo {
+  font-size: calc(1vw + 14.257px);
+  font-weight: 300;
+  line-height: 140%;
+  width: calc(66.6vw + 77.611px);
+  margin-bottom: 20px;
+}
+.primary {
+  border-radius: 12px;
+  width: 328px;
+  background-color: #6e3aba;
+  color: white;
+  font-weight: 500;
+  padding: 20px 0;
+  border: 1px solid #6e3aba;
+  font-size: 18px;
+  line-height: 117%;
+  margin-right: 30px;
+}
+.bg {
+  display: flex;
+  flex-direction: column;
+  gap: 57px;
+  align-items: center;
+  background-color: #6e3aba;
+  padding: 84px 0;
+}
+.sell {
+  font-size: 52px;
+  line-height: 117%;
+  color: white;
+}
+.sell_container {
+  display: flex;
+  gap: 85px;
+}
+.sell_card .time {
+  font-family: "Chava";
+  font-size: 174px;
+  line-height: 107%;
+}
+
+.sell_card span {
+  display: block;
+  font-size: 27px;
+  font-weight: 500;
+  line-height: 117%;
+  text-align: center;
+  margin-left: 10px;
+}
+.secondary {
+  border-radius: 12px;
+  background-color: #ffffff;
+  width: 328px;
+  padding: 20px 0;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 117%;
+  color: #6e3aba;
+  border: 1px solid #6e3aba;
+}
+.Months {
+  font-family: "TT Hoves";
+  font-size: 58px;
+  font-weight: 500;
+  line-height: 118%;
+  margin-bottom: 90px;
+}
+.title2 {
+  font-family: "TT Hoves";
+  font-size: 27px;
+  font-weight: 600;
+  line-height: 140%;
+  text-align: left;
+}
+.subtitle2 {
+  display: block;
+  margin-top: 10px;
+  font-family: "TT Hoves";
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 140%;
+  text-align: left;
+}
+.courseinfo1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 210px;
+  top: 226px;
+  left: 120px;
+  gap: 120px;
+  margin-bottom: 90px;
+}
+.courseForYou {
+  width: 769px;
+  height: 136px;
+  left: 120px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: TT Hoves;
+  font-size: 58px;
+  font-weight: 500;
+  line-height: 118%;
+  margin-bottom: 90px;
+}
+.emoji {
+  width: 210px;
+  height: 210px;
+  gap: 0px;
+  opacity: 0px;
+}
+.courseinfo2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 450px;
+  height: 506px;
+  gap: 70px;
+  margin-bottom: 52px;
+}
+@media ((min-width:250px) and (max-width:1200px)) {
+  .course-bg {
+    background-image: url(./Images/html_css_js\ 1.png);
+    background-repeat: no-repeat;
+    background-size: 45vw;
+    background-position: right 3.5px top 77px;
+  }
+  
+}
